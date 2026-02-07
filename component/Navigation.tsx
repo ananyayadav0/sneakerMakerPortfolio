@@ -33,7 +33,7 @@ export const Navigation: React.FC = () => {
         </div>
         
         <motion.a
-          href={`mailto:${portfolio.contact.email}`}
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf9bwuHWYXr-4ZwFPueqov6N79-dBJY90tv8Q69r9UvRLR9aA/viewform?usp=header"
           whileHover={{ x: -10 }}
           className="flex items-center gap-4 group"
         >

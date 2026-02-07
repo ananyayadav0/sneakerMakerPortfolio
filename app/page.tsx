@@ -118,7 +118,7 @@ const App: React.FC = () => {
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-10">
               <a 
-                href={`mailto:${portfolio.contact.email}`}
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf9bwuHWYXr-4ZwFPueqov6N79-dBJY90tv8Q69r9UvRLR9aA/viewform?usp=header"
                 className="group relative inline-flex items-center justify-center px-12 py-7 overflow-hidden font-mono font-bold uppercase tracking-[0.2em] text-white bg-transparent border-2 border-[#FF5C00] rounded-[32px] transition-all hover:bg-[#FF5C00]"
               >
                 <span className="relative z-10 text-sm">Initiate Project</span>
@@ -143,6 +143,10 @@ const App: React.FC = () => {
             </div>
             
             <div className="flex gap-12">
+              <a href={`mailto:${portfolio.contact.email}`} className="font-mono text-[10px] text-[#8A8A8A] uppercase tracking-[0.3em] hover:text-[#FF5C00] transition-colors relative group">
+                Mail
+                <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#FF5C00] transition-all group-hover:w-full" />
+              </a>
               <a href={portfolio.contact.instagram} className="font-mono text-[10px] text-[#8A8A8A] uppercase tracking-[0.3em] hover:text-[#FF5C00] transition-colors relative group">
                 Instagram
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#FF5C00] transition-all group-hover:w-full" />
